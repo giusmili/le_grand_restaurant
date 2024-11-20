@@ -6,3 +6,5 @@
 > 🧐 Scanner ce QR Code pour visualiser sur votre smarphone
 
 ![QR Code](./asset/qrcode_giusmili.github.io.png)
+
+![auteur](./asset/_auteur_g.militello_-idea-web-page.svg)
