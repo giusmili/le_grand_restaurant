@@ -16,3 +16,11 @@ export class User {
     });
   }
 }
+
+/* let firstName;
+let x = 2, y = "java";
+
+let one = Number(x), two = Number(y.length)
+!firstName ? console.info("Le prénom n'existe pas") : console.log("Le prénom existe")
+
+console.log(one + two) */
