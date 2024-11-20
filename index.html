@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LE BON GOUT - Restaurant">
+  <title>LE BON GOUT - Restaurant</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=restaurant">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- En-tête -->
+  <header class="header">
+    <h1>
+      <span aria-hidden="true" class="logo">
+        <img src="./asset/Abstract Chef Cooking Restaurant Free Logo.png" alt="logo le bon gout" loading="lazy">
+      </span>
+      LE BON GOUT
+    </h1>
+    <nav>
+      <ul class="nav">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#menu">Menus</a></li>
+        <li><a href="#infos">Informations</a></li>
+        <li><a href="#reservation">Réservation</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+  <!-- Accueil -->
+  <section id="accueil" class="section accueil">
+    <h2>Bienvenue au Restaurant LE BON GOUT</h2>
+    <p>Découvrez une ambiance chaleureuse et une cuisine authentique qui reflète notre passion pour les saveurs importées.</p>
+    <img src="./asset/robin-stickel-tzl1UCXg5Es-unsplash.jpg" alt="Intérieur du restaurant" class="main-image">
+  </section>
+
+<!--   modales -->
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="modalImage" src="" alt="image du plat" class="modale-image">
+  </div>
+</div>
+
+  <!-- Menu -->
+  <section id="menu" class="section">
+    <h2>Nos Menus</h2>
+    
+    <!-- Grille des catégories du menu -->
+    <ul class="menu-grid">
+      <li>
+        <img src="./asset/import-hamburger.jpg" alt="humburger" class="menu thumbnail" data-src="./asset/import-hamburger.jpg" loading="lazy">
+        <h4>Menu humburger</h4>
+      </li>
+      <li>
+        <img src="./asset/import-pizza.jpg" alt="Plats principaux" class="menu-image thumbnail" data-src="./asset/import-pizza.jpg" loading="lazy">
+        <h4>Menu Pizza</h4>
+      </li>
+      <li>
+        <img src="./asset/import-tacos.jpg" alt="Tacos" class="menu-image thumbnail" data-src="./asset/import-tacos.jpg" loading="lazy">
+        <h4>Menu tacos</h4>
+      </li>
+      <li>
+        <img src="./asset/kebab.jpg" alt="kebab" class="menu-image thumbnail" data-src="./asset/kebab.jpg" loading="lazy">
+        <h4>Menu kebab</h4>
+      </li>
+    </ul>
+
+    <h3>Plats Importés</h3>
+    
+    <!-- Grille des plats importés -->
+    <ul class="plat-grid">
+      <li class="plat">
+        <img src="./asset/pizzas.jpg" alt="pizzas" class="plat-image thumbnail" loading="lazy"  data-src="./asset/pizzas.jpg">
+        <h4>Pizzas et garniture au choix</h4>
+      </li>
+      <li class="plat">
+        <img src="./asset/hamburger.jpg" alt="Hamburger" class="plat-image thumbnail" loading="lazy"  data-src="./asset/hamburger.jpg">
+        <h4>Nos menus hmburger</h4>
+      </li>
+      <li class="plat">
+        <img src="./asset/tacos.jpg" alt="Tacos" class="plat-image thumbnail"  data-src="./asset/tacos.jpg">
+        <h4>Tacos à toutes les sauces</h4>
+      </li>
+      <li class="plat">
+        <img src="./asset/plat-sushi.jpg" alt="Sushis" class="plat-image thumbnail"  data-src="./asset/sushi.jpg">
+        <h4>Nos délicieux sushi</h4>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Informations -->
+  <section id="infos" class="section">
+    <h2>Informations Pratiques</h2>
+    <ul>
+      <li>
+        <strong>Adresse :</strong> 123 Rue de la Saveur, Ville</li>
+      <li><strong>Horaires :</strong> Lun-Dim : 12h - 23h</li>
+      <li><strong>Téléphone :</strong> 01 23 45 67 89</li>
+    </ul>
+    <iframe frameborder="0"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2622.319735155346!2d1.8536274764830922!3d48.90930027133917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e69118cd7891bb%3A0x84508d7f37caa302!2sBd%20Paul%20Barre%2C%2078580%20Maule!5e0!3m2!1sfr!2sfr!4v1717499497552!5m2!1sfr!2sfr" 
+    title="map" class="map">
+  </iframe>
+ 
+</iframe>
+  </section>
+
+  <!-- Réservation -->
+  <section id="reservation" class="section">
+    <h2>Réservation en Ligne</h2>
+    <fieldset>
+        <legend><em>Tous les champs sont obligatoires</em></legend>
+      <form>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="guests">Nombre de personnes:</label>
+        <input type="number" id="guests" name="guests" min="1" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <label for="time">Heure:</label>
+        <input type="time" id="time" name="time" required>
+        <button type="submit">Envoyez votre réservation</button>
+      </form>
+    </fieldset>
+  </section>
+</main>
+  <footer class="footer">
+    <p>&copy; 2024 LE BON GOUT - Restaurant</p>
+  </footer>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
