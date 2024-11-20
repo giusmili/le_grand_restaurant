@@ -1,7 +1,9 @@
 # 🚀 Le grand restaurant
 ![cover](./asset/logo.png)
 
-> 🧑‍💻 Un exercice de style pour apprendre à créer une landing page : [Publication de la page](https://giusmili.github.io/le_grand_restaurant/)<br>
+> 🧑‍💻 Un exercice de style pour apprendre à créer une landing page : <a href="https://giusmili.github.io/le_grand_restaurant/" target="_blank">Publication de la page</a>
+> 
+<br>
 > 🧐 **Scanner ce QRCode** pour visualiser sur votre smarphone
 
 <img src="./asset/qrcode_giusmili.github.io.png" width= 25% heigth="50%">
