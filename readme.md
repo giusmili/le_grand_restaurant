@@ -8,7 +8,7 @@
 
 
 ---
-
-
-![Auteur](./asset/_auteur_g.militello_-idea-web-page.svg)
+<p align="center">
+    <img src="./asset/_auteur_g.militello_-idea-web-page.svg">
+</p>
 
