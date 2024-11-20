@@ -10,4 +10,4 @@
 
 <p style="text-align: center">
 <img src="./asset/_auteur_g.militello_-idea-web-page.svg">
-<p>
+</p>
