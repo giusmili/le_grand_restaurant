@@ -1,7 +1,13 @@
 import {User} from './event.js'
 
 document.addEventListener("DOMContentLoaded", (e) => {
+  // const el = document.querySelector("h1")
   const closeModal = document.querySelector(".close");
+
+ /*  console.info(el.tagName);
+  console.log(el.tagName);
+  console.warn(el.tagName);
+  console.error(el.tagName); */
 
   User.choose();
 
