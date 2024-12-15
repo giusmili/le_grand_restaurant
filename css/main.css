@@ -276,10 +276,11 @@ button:hover {
     width: max-content;
     
   }
+ 
   .menu-grid, .plat-grid {
   
     grid-template-columns: repeat(2, 1fr);
-   
+    
   }
   .section{
     margin: 0 auto;
@@ -304,6 +305,14 @@ button:hover {
     font-size: 1.2rem;
     padding-right: .5rem;
   }
+  ul li h4{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 15rem;
+    white-space: nowrap;
+    
+  }
+
 }
   @media screen and (orientation: landscape ){
     .nav {
@@ -324,6 +333,14 @@ button:hover {
   
       grid-template-columns: repeat(4, 1fr);
      
+    }
+    ul li h4{
+      overflow: inherit;
+      text-overflow: inherit;
+      padding-right: 1%;
+      white-space: inherit;
+      width: 100%;
+      
     }
 
    
