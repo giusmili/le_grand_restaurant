@@ -312,6 +312,9 @@ button:hover {
     white-space: nowrap;
     
   }
+  .modal-content{
+    padding: 1rem;
+  }
 
 }
   @media screen and (orientation: landscape ){
