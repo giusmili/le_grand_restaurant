@@ -313,7 +313,13 @@ button:hover {
     
   }
   .modal-content{
-    padding: 1rem;
+    padding: .5rem;
+  }
+  .close {
+ 
+    top: -1rem;
+    right: 1rem;
+  
   }
 
 }
@@ -344,6 +350,20 @@ button:hover {
       white-space: inherit;
       width: 100%;
       
+    }
+    .close {
+      top: 2rem;
+      right: 3rem;
+    
+    }
+    .modal-content{
+      background-color: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      position: relative;
+      text-align: center;
+      max-width: 80rem;
+
     }
 
    
